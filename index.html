@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <title>Form</title>
+
+    <style>
+        nav {
+    height: 100px;
+    width: 100%;
+   
+    
+}
+
+
+
+img{
+    height: 50PX;
+    width: 120px;
+    /* display: inline-block;
+    margin: 40px 0px;
+   justify-content: space-between; */
+
+}
+
+
+
+table {
+    margin: auto;
+  height: 1000px;
+    width: 80%;
+    background-color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+   
+}
+
+
+
+td {
+    padding-left: 60px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #006838;
+    background-color: initial;
+    outline: none;
+    padding: none;
+    width: 80%;
+    color: #000;
+    font-size: 16px;
+}
+
+ select{
+    border: none;
+    border-bottom: 1px solid #006838;
+    background-color: initial;
+    outline: none;
+    padding: none;
+    width: 80%;
+    color: #000;
+    font-size: 16px;
+}
+
+#file {
+    border: 1px dotted rgb(0, 104, 56);
+     /* padding: 20px; */
+      width: 35%;
+      margin-left: 10px;
+}
+
+#call{
+    background-color: #006838;
+    color: #f7f7f7;
+    font-weight: 600;
+}
+
+#submit{
+    background-color: #006838;
+    color: #f7f7f7;
+    font-weight: 500;
+    border: 2px;
+    margin-left: 50px ;
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="./image/Capture.PNG" alt="">
+            </div>
+
+            
+
+
+        </nav>
+    </header>
+ 
+    <table>
+        <tr class="Two" >
+            <td>City* </td>
+            <td >Institute*</td>
+            <td >Course* </td>
+        </tr>
+
+        <tr>
+            <td> <select >
+                <option >Select Option</option>
+                <option >Karachi</option>
+                </select>
+            </td>
+            <td><select >
+                <option >Select Option</option>
+                
+                </select></td>
+            <td><select >
+                <option >Select Option</option>
+                
+                </select></td>
+           
+        </tr>
+
+        <tr class="Two">
+            <td>Your Full Time? </td>
+            <td >Full Name</td>
+            <td >Parents / Guardian Name </td>
+        </tr>
+
+        <tr>
+            <td><select >
+                <option >Select Timing</option>
+                </select> </td>
+            <td> <input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr class="Two">
+            <td>Email (Writ email carefully) </td>
+            <td >Contact Number</td>
+            <td >Parents / Guardian Number </td>
+        </tr>
+
+        <tr>
+            <td><input placeholder="abc123@mail.com" type="email"> </td>
+            <td><input placeholder="03XXXXXXXXX" type="number"></td>
+            <td><input placeholder="03XXXXXXXXX" type="number"></td>
+        </tr>
+
+        <tr class="Two">
+            <td>CNIC / BForm* </td>
+            <td >Gender*</td>
+            <td >Date of Birth*</td>
+        </tr>
+
+        <tr>
+            <td><input placeholder="4XXXXXXXXXXXX" type="text"> </td>
+            <td><select >
+                <option >Select Gender</option>
+                <option >Male</option>
+                <option >Female</option>
+                
+                </select></td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr class="Two">
+            <td colspan="2">Permanent Address* </td>
+           
+            <td >Last Qualification*</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="text" maxlength="80"> </td>
+            
+            <td><input type="text"></td>
+        </tr>
+
+
+        <tr>
+          
+            <td id="file">
+                
+                    <input id="call" type="file">
+                </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td id="submit"><input type="submit"></td>
+        </tr>
+
+
+        
+
+        
+    </table>
+        
+
+
+
+       
+
+      
+    
+</body>
+</html>
